@@ -2,7 +2,7 @@
 
 set -o errexit
 
-JDK_BUILD="27"
+JDK_BUILD="28"
 VERSION="ea-${JDK_BUILD}"
 IMAGE="dperezcabrera/openjdk11-alpine"
 JDK_ARCHIVE="openjdk-11+${JDK_BUILD}_linux-x64-musl_bin.tar.gz"
